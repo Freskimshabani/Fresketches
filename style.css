@@ -1,0 +1,318 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@700&display=swap');
+#Header {
+    color: lightgrey;
+    padding: 20px 50px 20px 50px;
+    animation: fadeIn 2s;
+    text-align: center;
+    font-size: 25pt;
+    border-radius: 15px;
+    background-image: url(images/des1.png);
+    background-size: 100% 100%;
+    border: 3px solid  #4223cc;
+}
+
+body {
+    background-color: #02000c;
+    font-family: 'Jost', sans-serif;
+    color: #4223cc;
+}
+#nav ul {
+    list-style-type: none;
+    padding: 0px;
+    text-decoration: none;
+}
+#nav li {
+    display: inline;
+    padding: 0px;
+    vertical-align: middle; 
+}
+#Container img {
+    animation: fadeIn 2s;
+}
+@keyframes hdslsh{
+    from{
+        background-image: url(images/Reading\ on\ the\ hills.jpg);
+    }
+    to{
+        background-image: url(images/Mountain\ With\ Lake.jpg);
+    }
+    to{
+        background-image: url(images/Summer\ Night.jpg);
+    }
+}
+@keyframes slide{
+    from{
+        width: 0%;
+    }
+    to{
+        width: 100%;
+    }
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+#nav li a {
+    animation: fadeIn 2s;
+    text-decoration: none;
+    margin-right: 10px;
+    opacity: 1;
+    padding-bottom: 5px;
+    
+}
+#nav li a:hover {
+    opacity: 50%;
+    transition: all 0.3s ease 0s;
+    border-bottom: 3px solid #4223cc;
+}
+a.selected {
+    border-bottom: 3px solid #4223cc;
+}
+#Container abc {
+    opacity: 0%;
+}
+#Container abc {
+    background-color: #08002c ;
+    margin-left: 5px ;
+    padding: 10px;
+    border-radius: 25px;
+    animation: fadeIn 2s;
+    opacity: 100%;
+}
+#Container form{
+    float: right;
+}
+#Container input[type=text]{
+    background-color:  #08002c;
+    background-image: url('images/srch.png');
+    background-position: 10px 7px;
+    background-repeat: no-repeat;
+    font-family: 'Jost', sans-serif;
+    margin-top: 10px ;
+    border: none;
+    border-radius: 25px;
+    color: white;
+    padding: 5px;
+    animation: fadeIn 2s;
+    
+}
+#Container label{
+    animation: fadeIn 2s;
+    
+}
+#Container form input-placeholder{
+    padding-left: 10px;
+    opacity: 50%;
+}
+hr{
+    border-top: 2px solid #4223cc;
+    border-bottom: none;
+    border-right: none;
+    border-left: none;    
+    animation: slide 2s;
+}
+#page{
+    background-color: #0f0051;
+    padding: 10px;
+    border-radius: 15px 15px 0px 0px;
+    animation: fadeIn 2s;
+    clear: both;
+}
+#footer{
+    background-color: #0b003d;
+    animation: fadeIn 2s;
+    border-radius: 0px 0px 15px 15px;
+    clear: both;
+}
+#info li{
+    display: list-item;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-align: center;
+    text-decoration: none;
+    list-style-type: none;
+}
+#info ul{
+    border-radius: 15px;
+    padding: 5px;
+    border: 3px solid #4223cc;
+    display: inline-block;
+    vertical-align: top;
+    
+}
+#info ul img{
+    vertical-align: middle;
+    border-radius: 5px;
+    margin-right: 5px;
+    width: 20px; 
+    height: 20px;
+}
+#art{
+    text-align: center;
+    background-color:  #08002c;
+    background-image: url(images/des1.png);
+    background-size: 100% 100%;
+    border-radius: 15px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    border: 3px solid #4223cc;
+}
+#art img{
+    border-radius: 15px;
+    margin-left: 20px;
+    vertical-align: middle;
+}
+#aimg{
+    border: 3px solid #4223cc;
+    border-radius: 15px;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#aimg img{
+    transition: transform 0.4s;
+    padding: 5px 5px 5px 5px;
+}
+#aimg img:hover{
+    -webkit-transform: scale(1.1) rotate(0.01eg);
+        transform: scale(1.1) rotate(0.01deg);
+}
+#gal{
+    border-radius: 15px;
+    padding: 0px 5px 5px 5px;
+}
+#gal img{
+    width: 15%;
+    height: 15%;
+    border-radius: 15px ;
+    padding: 10px;
+    vertical-align: middle;
+    transition: transform 0.4s;
+}
+#gal img:hover{
+    -webkit-transform: scale(1.05) rotate(0.01eg);
+        transform: scale(1.05) rotate(0.01deg);
+}
+#gal h2 {
+    border: 3px solid  #4223cc;
+    border-radius: 15px;
+    text-align: center;
+}
+#gal ul{
+    padding: 10px 0px 10px 0px;
+    background-color:  #08002c;
+    border-radius: 15px;
+    border: 3px solid  #4223cc;
+}
+#gal li {
+    list-style-type: none;
+    border-radius: 15px;
+    padding: 0px;
+    text-align: center;
+    display: inline-block;
+    background-color:  #08002c;
+    margin-left: 5%;
+    margin-right: 5%;
+
+}
+#gal li a:hover{
+    transition: all 0.3s ease 0s;
+    color: lightgrey;
+}
+#gal li a {
+    text-decoration: none;
+    list-style-type: none;
+
+}
+#profile{
+    background-color:  #08002c;
+    border-radius: 15px;
+    background-image: url(images/des1.png);
+    background-size: 100% 100%;
+}
+#logo{
+    border-radius: 15px;
+    background-color:  #08002c;
+    background-image: url(images/des1.png);
+    background-size: 100% 100%;
+}
+#mono{
+    background-color:  #08002c;
+    border-radius: 15px;
+    background-image: url(images/des1.png);
+    background-size: 100% 100%;
+}
+#wall{
+    background-color:  #08002c;
+    border-radius: 15px;
+    background-image: url(images/des1.png);
+    background-size: 100% 100%;
+}
+#abs{
+    background-color:  #08002c;
+    border-radius: 15px;
+    background-image: url(images/des1.png);
+    background-size: 100% 100%;
+}
+#icon{
+    background-color:  #08002c;
+    border-radius: 15px;
+    background-image: url(images/des1.png);
+    background-size: 100% 100%;
+}
+#portfolio {
+    
+    border-radius: 15px;
+    
+    padding: 10px;
+}
+#portfolio ul {
+    list-style-type: none;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 15pt;
+    padding: 10px;
+    margin-left: 20px;
+    border: 3px solid #4223cc;
+    border-radius: 15px;
+    background-image: url(images/des1.png);
+    background-size: 100% 100%;
+}
+#portfolio li b{
+    color: lightgrey;
+}
+#portfolio img{
+    background-color:  #08002c;
+    padding: 5px;
+}
+#icons ul li {
+	text-align: center;
+	padding-left: 20px;
+	padding-right: 20px;
+	display: inline;
+}
+#icons ul {
+    text-align: center;
+    text-decoration: none;
+    list-style-type: none;
+    background-image: url(images/des1.png);
+    background-size: 100% 100%;
+    padding: 30px 0px 25px 0px;
+    border: 3px solid #4223cc;
+    border-radius: 15px;
+}
+#icons img{
+	border-radius: 50px;
+	width: 6.25%; 
+	height: 6.25%;
+	transition: transform 0.4s;
+}
+#icons img:hover{
+	-webkit-transform: scale(1.3) rotate(360deg);
+        transform: scale(1.3) rotate(360deg);
+}
