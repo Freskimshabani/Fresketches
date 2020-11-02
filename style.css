@@ -59,7 +59,8 @@ body {
 #nav li a {
     animation: fadeIn 2s;
     text-decoration: none;
-    margin-right: 10px;
+    margin-right: auto 10px;
+    margin-left: auto 10px;
     opacity: 1;
     padding-bottom: 5px;
     
